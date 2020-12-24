@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  height: 100%;
+  background-color: rgb(243, 243, 243);
+  color: #444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Highlight */
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #2c454f;
+}
+
+::selection {
+  color: white;
+  background: #2c454f;
+}
+
+/* Remove annoying white outline on links */
+a:hover,
+a:active,
+a:focus {
+  outline: 0;
+}

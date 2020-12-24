@@ -1,0 +1,68 @@
+/* Nav Container */
+.md-navlinks {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  height: 6rem;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+
+  li {
+    font-family: "Libre Baskerville", serif;
+    padding-top: 2rem;
+    min-width: 6.25rem; /* even spacing */
+
+    a {
+      color: #2c454f;
+      border-top: 0.1875rem solid transparent;
+      padding-top: 1.5rem;
+      text-transform: lowercase;
+
+      &:hover {
+        color: #456b7a;
+        text-decoration: none;
+        text-shadow: none;
+        transition: all 0.5s;
+      }
+    }
+
+    a.active-link {
+      color: #456b7a;
+      text-shadow: none;
+    }
+
+    /* Remove padding top on logo a */
+    &:nth-child(3) {
+      padding-top: 0;
+    }
+
+    &:last-child,
+    &:nth-child(4) {
+      text-align: right;
+    }
+  }
+}
+
+/* Replace link with image */
+li.logo {
+  background: url("./../assets/images/mcp-logo-dark.svg") center no-repeat;
+  border-top: none;
+  display: block;
+  height: 5.625rem;
+  text-indent: -9999px;
+  width: 6.25rem;
+
+  &:hover {
+    transition: opacity 500ms;
+    opacity: 0.8;
+  }
+
+  a {
+    display: block;
+    height: 5.625rem;
+    text-indent: -9999px;
+    width: 6.25rem;
+  }
+}

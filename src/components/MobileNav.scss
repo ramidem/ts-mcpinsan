@@ -1,0 +1,65 @@
+/* Mobile Nav Overlay */
+.open-menu {
+  color: #2A454E;
+  position: fixed;
+  top: 2.5rem;
+  left: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  &:hover {
+    color: #6c7e85;
+  }
+}
+
+.overlay {
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  background-color: rgba(44, 69, 79, 0.95);
+  overflow-x: hidden;
+  transition: 500ms ease-in-out;
+
+  a {
+    padding: 0.5rem;
+    font-size: 2.25rem;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: "Libre Baskerville", serif;
+    text-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.5);
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: whitesmoke;
+      opacity: 0.7;
+      transition: opacity 0.5s;
+    }
+  }
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.875rem;
+}
+
+.overlay .closebtn {
+  font-size: 1.5rem;
+  color: white;
+  opacity: 0.7;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.overlay .closebtn:hover {
+  text-shadow: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  cursor: pointer;
+}
