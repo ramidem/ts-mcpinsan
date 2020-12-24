@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import "./MobileNav.scss";
 
@@ -21,7 +22,7 @@ const MobileNav: React.FC = () => {
         </a>
 
         <div className="overlay-content">
-          <a href="./about.html">About</a>
+          <Link to="/about">About</Link>
           <a href="./menu.html">Menu</a>
           <a href="./workspaces.html">Workspaces</a>
           <a href="./contact.html">Contact</a>
