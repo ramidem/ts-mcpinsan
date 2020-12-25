@@ -15,7 +15,7 @@ const MobileNav: React.FC = () => {
   }
 
   return (
-    <nav className="navbar d-md-none">
+    <nav className="navbar d-md-none p-0">
       <div id="hamburger" className="overlay" style={burgerWidth}>
         <a href="#!" className="closebtn" onClick={closeNav}>
           <i className="fas fa-chevron-left"></i>
@@ -23,7 +23,7 @@ const MobileNav: React.FC = () => {
 
         <div className="overlay-content">
           <Link to="/about">About</Link>
-          <a href="./menu.html">Menu</a>
+          <Link to="/menu">Menu</Link>
           <a href="./workspaces.html">Workspaces</a>
           <a href="./contact.html">Contact</a>
         </div>

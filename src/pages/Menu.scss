@@ -1,0 +1,59 @@
+.table-menu {
+  thead tr th {
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px solid #444;
+  }
+
+  th {
+    font-size: 18px;
+  }
+
+  span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  td {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: right;
+    vertical-align: middle;
+    font-style: italic;
+    min-width: 115px;
+
+    span {
+      display: inline;
+      font-size: 18px;
+    }
+  }
+}
+
+.menu-tables h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.frappes-shakes tbody tr,
+.frappes-shakes tbody th,
+.frappes-shakes tbody td {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.frappes-shakes {
+  tbody th {
+    font-weight: normal;
+  }
+
+  thead tr th {
+    border-bottom: none;
+  }
+
+  tbody tr td {
+    font-size: 18px;
+  }
+}
