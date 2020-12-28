@@ -5,8 +5,6 @@
 .about-wrapper {
   background-color: white;
   box-shadow: 0px 0.625rem 0.625rem rgba(0, 0, 0, 0.2);
-  color: #456B7A;
-  font-family: "Merriweather", serif;
   margin-bottom: 3rem;
 
   h4 {
@@ -59,3 +57,26 @@
   }
 }
 
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .about-wrapper {
+    margin-bottom: 2.5rem;
+  }
+
+  .about-wrapper p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .socials .fab {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 335px) {
+  .socials .fab {
+    font-size: 1.5rem;
+  }
+}

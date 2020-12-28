@@ -20,7 +20,7 @@ const DesktopNav: React.FC = () => {
               <Link to="/">McPinsan</Link>
             </li>
             <li className="navlink d-none d-md-block">
-              <a href="./workspaces.html">Workspaces</a>
+              <Link to="/workspaces">workspaces</Link>
             </li>
             <li className="navlink d-none d-md-block">
               <a href="./contact.html">Contact</a>

@@ -23,14 +23,6 @@
   .fullwidth-gallery {
     display: none;
   }
-
-  .about-wrapper {
-    margin-bottom: 2.5rem;
-  }
-
-  .about-wrapper p {
-    font-size: 1rem;
-  }
 }
 
 @media (max-width: 420px) {
@@ -38,18 +30,10 @@
     font-size: 1rem;
     padding: 1rem 0 1rem 0.8rem;
   }
-
-  .socials .fab {
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 335px) {
   .btn {
     font-size: 1rem;
-  }
-
-  .socials .fab {
-    font-size: 1.5rem;
   }
 }

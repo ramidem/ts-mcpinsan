@@ -1,0 +1,18 @@
+/* Full Width Gallery */
+.fullwidth-gallery {
+  max-width: 2752px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 33.3333%);
+}
+
+.gallery__carousel img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .fullwidth-gallery {
+    display: none;
+  }
+}

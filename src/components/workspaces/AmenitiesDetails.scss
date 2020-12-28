@@ -1,0 +1,43 @@
+.fullwidth-gallery {
+  max-width: 2752px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 33.3333%);
+}
+
+.media img {
+  width: 4rem;
+  height: 4rem;
+}
+
+#amenitiesAccordion .card {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+#amenitiesAccordion .card-header {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  cursor: pointer;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#amenitiesAccordion .card-body {
+  padding: 1.5rem;
+  margin-top: -0.8rem;
+}
+
+.accordion-toggler .media {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-toggler .media img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.accordion-toggler .media h4 {
+  margin-bottom: 0;
+}

@@ -6,6 +6,7 @@ import "./App.scss";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
+import Workspaces from "./pages/Workspaces";
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
               <Route exact path="/menu" component={Menu} />
+              <Route exact path="/workspaces" component={Workspaces} />
             </Switch>
           </div>
         </div>

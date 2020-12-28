@@ -22,9 +22,15 @@ const MobileNav: React.FC = () => {
         </a>
 
         <div className="overlay-content">
-          <Link to="/about">About</Link>
-          <Link to="/menu">Menu</Link>
-          <a href="./workspaces.html">Workspaces</a>
+          <Link to="/about" onClick={closeNav}>
+            About
+          </Link>
+          <Link to="/menu" onClick={closeNav}>
+            Menu
+          </Link>
+          <Link to="/workspaces" onClick={closeNav}>
+            Workspaces
+          </Link>
           <a href="./contact.html">Contact</a>
         </div>
       </div>
