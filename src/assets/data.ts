@@ -108,3 +108,13 @@ export const ROOMS = [
     ],
   },
 ];
+
+export const CONTACT = [
+  {
+    name: "address",
+    info: "Some St., Jolo, Sulu. PH",
+    icon: "fa-map-marker-alt",
+  },
+  { name: "email", info: "mcpinsan@email.mail", icon: "fa-envelope-open-text" },
+  { name: "phone", info: "+63 992 000 1111", icon: "fa-phone" },
+];

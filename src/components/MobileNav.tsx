@@ -31,7 +31,9 @@ const MobileNav: React.FC = () => {
           <Link to="/workspaces" onClick={closeNav}>
             Workspaces
           </Link>
-          <a href="./contact.html">Contact</a>
+          <Link to="/contact" onClick={closeNav}>
+            Contact
+          </Link>
         </div>
       </div>
 

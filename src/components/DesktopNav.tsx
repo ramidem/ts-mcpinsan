@@ -23,7 +23,7 @@ const DesktopNav: React.FC = () => {
               <Link to="/workspaces">workspaces</Link>
             </li>
             <li className="navlink d-none d-md-block">
-              <a href="./contact.html">Contact</a>
+              <Link to="/contact">contact</Link>
             </li>
           </ul>
         </Row>
