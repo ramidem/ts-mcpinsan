@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Workspaces from "./pages/Workspaces";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
@@ -25,10 +26,8 @@ const App: React.FC = () => {
             </Switch>
           </div>
         </div>
+        <Footer />
       </Router>
-      <div className="App__footer" style={{ backgroundColor: "hotpink" }}>
-        Footer
-      </div>
     </>
   );
 };

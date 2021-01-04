@@ -9,29 +9,6 @@
 }
 
 /* Media Queries */
-@media (max-width: 767px) {
-  /* Map Stuff */
-  .mapouter {
-    max-height: 18.75rem;
-  }
-
-  .gmap_canvas {
-    max-height: 18.75rem;
-  }
-
-  /* Gallery */
-  .fullwidth-gallery {
-    display: none;
-  }
-}
-
-@media (max-width: 420px) {
-  .list-group-item {
-    font-size: 1rem;
-    padding: 1rem 0 1rem 0.8rem;
-  }
-}
-
 @media (max-width: 335px) {
   .btn {
     font-size: 1rem;
